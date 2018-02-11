@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+ORDER BY ${1:column}
+]]></content>
+  <tabTrigger>ORDER</tabTrigger>
+  <scope>string.quoted.double.php</scope>
+  <description>SQL ORDER BY</description>
+</snippet>

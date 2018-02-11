@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+Object.assign(${1:copyToObj}, ${3:
+	{
+		${2:copyFromObj}
+	\}
+})
+]]></content>
+    <tabTrigger>objas</tabTrigger>
+    <scope>source.js,source.ts</scope>
+    <description>Copy key-value pairs to object</description>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+JOIN ${1:table} AS ${2:table_alias}
+ON ${3:table_alias}.${4:fk_col}=${2:table_alias}.${5:id}
+]]></content>
+  <tabTrigger>JOIN</tabTrigger>
+  <scope>string.quoted.double.php</scope>
+  <description>SQL JOIN</description>
+</snippet>

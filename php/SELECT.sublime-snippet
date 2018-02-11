@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+SELECT ${1:columns}
+ FROM ${2:table}
+ WHERE ${3:${4:column}='${5:value}'}
+]]></content>
+  <tabTrigger>SELECT</tabTrigger>
+  <scope>string.quoted.double.php</scope>
+  <description>SQL SELECT query</description>
+</snippet>

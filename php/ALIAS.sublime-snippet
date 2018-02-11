@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+AS `${1:alias}`
+]]></content>
+  <tabTrigger>AS</tabTrigger>
+  <scope>string.quoted.double.php</scope>
+  <description>SQL ALIAS</description>
+</snippet>

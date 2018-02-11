@@ -1,0 +1,23 @@
+{
+    "indent_size": 2, // Indentation size [4]
+    "indent_char": " ", // Indentation character [" "]
+    "eol": "\n", // character(s) to use as line terminators. (default newline)
+    "indent_level": 0, // Initial indentation level [0]
+    "indent_with_tabs": false, // Indent with tabs, overrides -s and -c
+    "preserve_newlines": true, // Preserve line-breaks (--no-preserve-newlines disables)
+    "max_preserve_newlines": 10, // Number of line-breaks to be preserved in one chunk [10]
+    "jslint_happy": false, // Enable jslint-stricter mode
+    "space_after_anon_function": false, // Add a space before an anonymous function's parens, ie. function()
+    "brace_style": "collapse", // [collapse-preserve-inline|collapse|expand|end-expand|none] ["collapse"]
+    "keep_array_indentation": false, // Preserve array indentation
+    "keep_function_indentation": false,
+    "space_before_conditional": true,
+    "break_chained_methods": false, // Break chained method calls across subsequent lines
+    "eval_code": false,
+    "unescape_strings": false, // Decode printable characters encoded in xNN notation
+    "wrap_line_length": 0, // Wrap lines at next opportunity after N characters [0]
+    "wrap_attributes": "auto", // Wrap attributes to new lines [auto|force] ["auto"]
+    "wrap_attributes_indent_size": 4, // Indent wrapped attributes to after N characters [indent-size]
+    "end_with_newline": false // End output with newline
+ // Add padding spaces within paren, ie. f( a, b )
+}

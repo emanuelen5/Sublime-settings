@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+UPDATE ${1:table}
+ SET (${2:col}='${3:val}'${4:})
+]]></content>
+  <tabTrigger>UPDATE</tabTrigger>
+  <scope>string.quoted.double.php</scope>
+  <description>SQL UPDATE</description>
+</snippet>

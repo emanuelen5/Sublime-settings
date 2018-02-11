@@ -1,0 +1,31 @@
+{
+   "scope": "source.js - meta.function.declaration.js - meta.property.object.js",
+
+   "completions":
+   [
+      {
+        "trigger"   : "var",
+        "contents"  : "var"
+      },
+      {
+        "trigger"   : "Object",
+        "contents"  : "Object"
+      },
+      {
+        "trigger"   : "console",
+        "contents"  : "console"
+      },
+      {
+        "trigger"   : "clearTimeout",
+        "contents"  : "clearTimeout"
+      },
+      {
+        "trigger"   : "setInterval",
+        "contents"  : "setInterval"
+      },
+      {
+        "trigger"   : "setTimeout",
+        "contents"  : "setTimeout"
+      }
+   ]
+}

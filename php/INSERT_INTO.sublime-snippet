@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+INSERT INTO ${1:table}(${2:columns})
+ VALUES (${3:${2:values}})${4:, (more values)}
+]]></content>
+  <tabTrigger>INSERT INTO</tabTrigger>
+  <scope>string.quoted.double.php</scope>
+  <description>SQL INSERT INTO query</description>
+</snippet>

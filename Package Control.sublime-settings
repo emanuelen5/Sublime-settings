@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"DocBlockr",
+		"HexViewer",
+		"jQuery",
+		"JsFormat",
+		"JSHint",
+		"Matlab Completions",
+		"Modific",
+		"Monokai Extended",
+		"Package Control",
+		"PackageResourceViewer",
+		"SDC Constraints",
+		"SublimeLinter",
+		"SublimeLinter-annotations",
+		"Super Calculator",
+		"Sync View Scroll",
+		"Text Pastry",
+		"Verilog",
+		"VHDL"
+	]
+}

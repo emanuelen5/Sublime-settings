@@ -1,0 +1,24 @@
+{
+   "cmd": ["make"],
+   // To make Sublime find Perl scripts etc.
+   // sed s/\:\\/\\\([^c]\\\)/\;\\/c\\/Program\ Files\\/Git\\/\\\1/g <<< $PATH
+   "env": {
+    "PATH":"/c/Users/Emanu/bin;/c/Program Files/Git/mingw64/bin;/c/Program Files/Git/usr/local/bin;/c/Program Files/Git/usr/bin;/c/Program Files/Git/bin;/c/Program Files/Git/mingw64/bin;/c/Program Files/Git/usr/bin:/c/Users/Emanu/bin:/c/Program Files/Python36/Scripts:/c/Program Files/Python36:/c/Program Files/Dell/DW WLAN Card:/c/Program Files (x86)/Intel/iCLS Client:/c/Program Files/Intel/iCLS Client:/c/WINDOWS/system32:/c/WINDOWS:/c/WINDOWS/System32/Wbem:/c/WINDOWS/System32/WindowsPowerShell/v1.0:/c/Program Files/WIDCOMM/Bluetooth Software:/c/Program Files/WIDCOMM/Bluetooth Software/syswow64:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/Intel/Intel(R) Management Engine Components/IPT:/c/Program Files/nodejs;/c/Program Files/Git/bin:/c/Users/Emanu/AppData/Local/Microsoft/WindowsApps:/c/Users/Emanu/AppData/Roaming/npm:/c/Users/Emanu/Path additions:/c/MinGW/msys/1.0/bin:/c/MinGW/bin;/c/Program Files/Git/usr/bin/vendor_perl;/c/Program Files/Git/usr/bin/core_perl"
+  },
+  "variants":
+  [
+    {
+      "name": "Clean",
+      "cmd": ["make", "clean"]
+    },
+    {
+      "name": "Test",
+      "cmd": ["make", "test"]
+    },
+    {
+      "name": "ReadMe",
+      "cmd": ["make", "readme"]
+    }
+  ],
+  "selector": "source.makefile"
+}

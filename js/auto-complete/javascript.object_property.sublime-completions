@@ -1,0 +1,11 @@
+{
+   "scope": "source.js meta.property.object.js",
+
+   "completions":
+   [
+      {
+        "trigger"   : "assign",
+        "contents"  : "assign"
+      }
+   ]
+}

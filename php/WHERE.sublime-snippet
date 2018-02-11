@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+WHERE (${1:${2:column}=${3:'${4:value}'}})
+]]></content>
+  <tabTrigger>WHERE</tabTrigger>
+  <scope>string.quoted.double.php</scope>
+  <description>SQL WHERE</description>
+</snippet>
