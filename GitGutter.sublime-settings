@@ -1,0 +1,6 @@
+// GitGutter Settings - User
+{
+  "diff_popup_default_mode": "diff",
+  "debounce_delay": 500,
+  "show_in_minimap": 4,
+}

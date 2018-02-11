@@ -33,130 +33,57 @@
       ]
   },
 
-
-  // Surround with "." in PHP
-  { "keys": ["."], "command": "insert_snippet", "args": {"contents": ".${0:$SELECTION}."}, "context":
-      [
-          { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-          { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": true },
-          { "key": "selector", "operator": "equal", "operand": "source.php", "match_all": true }
-      ]
-  },
-  { "keys": ["."], "command": "move", "args": {"by": "characters", "forward": true}, "context":
-      [
-          { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-          { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-          { "key": "following_text", "operator": "regex_contains", "operand": "^\\.", "match_all": true },
-          { "key": "selector", "operator": "equal", "operand": "source.php", "match_all": true }
-      ]
-  },
-  { "keys": ["backspace"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Left Right.sublime-macro"}, "context":
-      [
-          { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
-          { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-          { "key": "preceding_text", "operator": "regex_contains", "operand": "\\.$", "match_all": true },
-          { "key": "following_text", "operator": "regex_contains", "operand": "^\\.", "match_all": true },
-          { "key": "selector", "operator": "equal", "operand": "source.php", "match_all": true }
-      ]
-  },
   // Remove ESC as button for exiting VIM, only use CRTL+[
   { "keys": ["escape"], "command": "unbound" },
-  { "keys": ["escape"], "command": "single_selection", "context":
-    [
-      { "key": "num_selections", "operator": "not_equal", "operand": 1 }
-    ]
-  },
-  { "keys": ["escape"], "command": "clear_fields", "context":
-    [
-      { "key": "has_next_field", "operator": "equal", "operand": true }
-    ]
-  },
-  { "keys": ["escape"], "command": "clear_fields", "context":
-    [
-      { "key": "has_prev_field", "operator": "equal", "operand": true }
-    ]
-  },
-  { "keys": ["escape"], "command": "hide_panel", "args": {"cancel": true},
-    "context":
-    [
-      { "key": "panel_visible", "operator": "equal", "operand": true }
-    ]
-  },
-  { "keys": ["escape"], "command": "hide_overlay", "context":
-    [
-      { "key": "overlay_visible", "operator": "equal", "operand": true }
-    ]
-  },
-  { "keys": ["escape"], "command": "hide_popup", "context":
-    [
-      { "key": "popup_visible", "operator": "equal", "operand": true }
-    ]
-  },
-  { "keys": ["escape"], "command": "hide_auto_complete", "context":
-    [
-      { "key": "auto_complete_visible", "operator": "equal", "operand": true }
-    ]
-  },
+  { "keys": ["escape"], "command": "single_selection",                     "context" : [{ "key": "num_selections",        "operator" : "not_equal", "operand" : 1 } ] },
+  { "keys": ["escape"], "command": "clear_fields",                         "context" : [{ "key": "has_next_field",        "operator" : "equal",     "operand" : true } ] },
+  { "keys": ["escape"], "command": "clear_fields",                         "context" : [{ "key": "has_prev_field",        "operator" : "equal",     "operand" : true } ] },
+  { "keys": ["escape"], "command": "hide_panel", "args": {"cancel": true}, "context" : [{ "key": "panel_visible",         "operator" : "equal",     "operand" : true } ] },
+  { "keys": ["escape"], "command": "hide_overlay",                         "context" : [{ "key": "overlay_visible",       "operator" : "equal",     "operand" : true } ] },
+  { "keys": ["escape"], "command": "hide_popup",                           "context" : [{ "key": "popup_visible",         "operator" : "equal",     "operand" : true } ] },
+  { "keys": ["escape"], "command": "hide_auto_complete",                   "context" : [{ "key": "auto_complete_visible", "operator" : "equal",     "operand" : true } ] },
 
   // Remap indent keys with alt-modifiers and escape to ctrl+[
   { "keys": ["ctrl+["], "command": "unbound" },
   { "keys": ["alt+]"], "command": "indent" },
   { "keys": ["ctrl+]"], "command": "unbound" },
   { "keys": ["alt+["], "command": "unindent" },
-  { "keys": ["ctrl+["], "command": "exit_insert_mode",
-      "context":
-      [
+  { "keys": ["ctrl+["], "command": "exit_insert_mode", "context": [
           { "key": "setting.command_mode", "operand": false },
           { "key": "setting.is_widget", "operand": false }
       ]
   },
-  { "keys": ["ctrl+["], "command": "exit_visual_mode",
-    "context":
-    [
+  { "keys": ["ctrl+["], "command": "exit_visual_mode", "context": [
       { "key": "setting.command_mode"},
       { "key": "num_selections", "operand": 1},
       { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false },
       { "key": "setting.vintage_ctrl_keys" }
     ]
   },
-  { "keys": ["ctrl+["], "command": "vi_cancel_current_action", "context":
-    [
+  { "keys": ["ctrl+["], "command": "vi_cancel_current_action", "context": [
       { "key": "setting.command_mode" },
       { "key": "vi_has_input_state" },
       { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": false },
       { "key": "setting.vintage_ctrl_keys" }
     ]
   },
-  { "keys": ["ctrl+["], "command": "hide_auto_complete", "context":
-    [
+  { "keys": ["ctrl+["], "command": "hide_auto_complete", "context": [
       { "key": "auto_complete_visible", "operator": "equal", "operand": true }
     ]
   },
-  { "keys": ["ctrl+["], "command": "hide_panel", "args": {"cancel": true},
-    "context":
-    [
+  { "keys": ["ctrl+["], "command": "hide_panel", "args": {"cancel": true}, "context": [
       { "key": "panel_visible", "operator": "equal", "operand": true }
     ]
   },
-  { "keys": ["ctrl+["], "command": "hide_overlay", "context":
-    [
+  { "keys": ["ctrl+["], "command": "hide_overlay", "context": [
       { "key": "overlay_visible", "operator": "equal", "operand": true }
     ]
   },
-  { "keys": ["ctrl+["], "command": "hide_popup", "context":
-    [
+  { "keys": ["ctrl+["], "command": "hide_popup", "context": [
       { "key": "popup_visible", "operator": "equal", "operand": true }
     ]
   },
 
-  // Go from visual mode to edit mode with selections intact
-  { "keys": ["i"], "command": "enter_insert_mode", "context":
-    [
-      { "key": "setting.command_mode"},
-      { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false }
-    ]
-  },
-
   // Cancel build command
-  { "keys": ["ctrl+alt+b"], "command": "exec", "args": {"kill": true} }
+  { "keys": ["ctrl+alt+b"], "command": "exec", "args": {"kill": true} },
 ]

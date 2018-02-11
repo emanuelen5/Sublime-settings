@@ -1,0 +1,19 @@
+// Markdown Extended - User
+[
+  {
+    "extensions": [
+      "md"
+    ]
+  },
+
+  // Auto-refresh the browser
+  {
+      "keys": ["command+shift+r"], "command": "browser_refresh", "args": {
+          "auto_save": true,
+          "delay": 0.0,
+          "activate_browser": false,
+          "browser_name" : "all"
+      }
+  },
+  { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+]

@@ -1,6 +1,7 @@
 {
 	"extensions":
 	[
-		"vhd"
+		"h",
+		"ino"
 	]
 }

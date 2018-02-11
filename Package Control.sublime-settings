@@ -6,23 +6,19 @@
 	"installed_packages":
 	[
 		"AlignTab",
+		"Browser Refresh",
 		"DocBlockr",
-		"HexViewer",
-		"jQuery",
-		"JsFormat",
-		"JSHint",
-		"Matlab Completions",
-		"Modific",
+		"G-code Syntax Highlighting",
+		"GitGutter",
+		"LaTeXTools",
+		"Markdown Extended",
+		"Markdown Preview",
 		"Monokai Extended",
 		"Package Control",
 		"PackageResourceViewer",
-		"SDC Constraints",
 		"SublimeLinter",
-		"SublimeLinter-annotations",
-		"Super Calculator",
-		"Sync View Scroll",
+		"SublimeLinter-jshint",
 		"Text Pastry",
-		"Verilog",
-		"VHDL"
+		"VHDL Mode"
 	]
 }
