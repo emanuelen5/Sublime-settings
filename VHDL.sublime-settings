@@ -4,6 +4,6 @@
 		"mem",
 		"vhd"
 	],
-        "tab_size": 4,
+	"tab_size": 4,
 	"save_on_focus_lost": true
 }
