@@ -8,6 +8,9 @@
         "lint_mode": "load/save",
         "linters": {
             "jshint": {
+	        "disable": false,
+                "args": [],
+                "excludes": []
             }
             "annotations": {
                 "@disable": false,
