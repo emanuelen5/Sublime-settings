@@ -11,14 +11,22 @@
 		"G-code Syntax Highlighting",
 		"GitGutter",
 		"LaTeXTools",
+		"HexViewer",
 		"Markdown Extended",
 		"Markdown Preview",
+		"Matlab Completions",
+		"Modific",
 		"Monokai Extended",
 		"Package Control",
 		"PackageResourceViewer",
+		"SDC Constraints",
 		"SublimeLinter",
 		"SublimeLinter-jshint",
+		"SublimeLinter-annotations",
+		"Super Calculator",
+		"Sync View Scroll",
 		"Text Pastry",
+		"Verilog",
 		"VHDL Mode"
 	]
 }
