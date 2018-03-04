@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[[${1:I'm an inline-style link with title}](${2:url} ${3:"Hover description"})]]></content>
+	<tabTrigger>linkih</tabTrigger>
+	<scope>text.html.markdown</scope>
+	<description>inline link with header</description>
+</snippet>

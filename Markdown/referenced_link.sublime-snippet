@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[[${1:I'm a reference-style link}][${2:Arbitrary case-insensitive reference text}]
+
+[${2:arbitrary case-insensitive reference text}]: ${3:url}
+]]></content>
+	<tabTrigger>linkr</tabTrigger>
+	<scope>text.html.markdown</scope>
+	<description>referenced link by text</description>
+</snippet>

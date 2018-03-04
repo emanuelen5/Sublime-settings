@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[[$SELECTION](${1:url})]]></content>
+	<scope>text.html.markdown</scope>
+	<description>inline link from selection</description>
+</snippet>
