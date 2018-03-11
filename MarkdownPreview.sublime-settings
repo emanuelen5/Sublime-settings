@@ -1,0 +1,7 @@
+{
+    "enabled_extensions": [
+        "extra",
+        "github",
+        "codehilite(guess_lang=True)"
+    ]
+}
