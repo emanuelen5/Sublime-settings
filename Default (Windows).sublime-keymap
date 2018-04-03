@@ -97,10 +97,10 @@
       { "key": "auto_complete_visible", "operator": "equal", "operand": true }
     ]
   },
-  { "keys": ["ctrl+["], "command": "hide_panel", "args": {"cancel": true}, "context": [
-      { "key": "panel_visible", "operator": "equal", "operand": true }
-    ]
-  },
+  // { "keys": ["ctrl+["], "command": "hide_panel", "args": {"cancel": true}, "context": [
+  //     { "key": "panel_visible", "operator": "equal", "operand": true }
+  //   ]
+  // },
   { "keys": ["ctrl+["], "command": "hide_overlay", "context": [
       { "key": "overlay_visible", "operator": "equal", "operand": true }
     ]
