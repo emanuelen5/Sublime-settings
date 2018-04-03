@@ -1904,6 +1904,116 @@
           <string>#D02000</string>
         </dict>
       </dict>
+      <dict>
+        <key>name</key>
+        <string>Word Highlighter Color 0</string>
+        <key>scope</key>
+        <string>word_highlighter.color0</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D02000</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Word Highlighter Color 1</string>
+        <key>scope</key>
+        <string>word_highlighter.color1</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#549F91</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Word Highlighter Color 2</string>
+        <key>scope</key>
+        <string>word_highlighter.color2</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#FFD6EC</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Word Highlighter Color 3</string>
+        <key>scope</key>
+        <string>word_highlighter.color3</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#43E8D8</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Word Highlighter Color 4</string>
+        <key>scope</key>
+        <string>word_highlighter.color4</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#02330E</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Word Highlighter Color 5</string>
+        <key>scope</key>
+        <string>word_highlighter.color5</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#F2BD2B</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Word Highlighter Color 6</string>
+        <key>scope</key>
+        <string>word_highlighter.color6</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D02000</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Word Highlighter Color 7</string>
+        <key>scope</key>
+        <string>word_highlighter.color7</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#7B9828</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Word Highlighter Color 8</string>
+        <key>scope</key>
+        <string>word_highlighter.color8</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D8946F</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Word Highlighter Color 9</string>
+        <key>scope</key>
+        <string>word_highlighter.color9</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#425D7C</string>
+        </dict>
+      </dict>
     </array>
     <key>uuid</key>
     <string>1D07ACC0-832F-11E2-9E96-0800200C9A66</string>
