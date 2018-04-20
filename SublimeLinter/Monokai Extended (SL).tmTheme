@@ -1912,7 +1912,9 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#D02000</string>
+          <string>#000000</string>
+          <key>background</key>
+          <string>#FF455B</string>
         </dict>
       </dict>
       <dict>
@@ -1923,7 +1925,9 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#549F91</string>
+          <string>#000000</string>
+          <key>background</key>
+          <string>#00D953</string>
         </dict>
       </dict>
       <dict>
@@ -1934,6 +1938,8 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
+          <string>#000000</string>
+          <key>background</key>
           <string>#FFD6EC</string>
         </dict>
       </dict>
@@ -1945,6 +1951,8 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
+          <string>#000000</string>
+          <key>background</key>
           <string>#43E8D8</string>
         </dict>
       </dict>
@@ -1956,7 +1964,9 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#02330E</string>
+          <string>#000000</string>
+          <key>background</key>
+          <string>#AC5EFF</string>
         </dict>
       </dict>
       <dict>
@@ -1967,6 +1977,8 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
+          <string>#000000</string>
+          <key>background</key>
           <string>#F2BD2B</string>
         </dict>
       </dict>
@@ -1978,7 +1990,9 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#D02000</string>
+          <string>#000000</string>
+          <key>background</key>
+          <string>#FF73E3</string>
         </dict>
       </dict>
       <dict>
@@ -1989,6 +2003,8 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
+          <string>#000000</string>
+          <key>background</key>
           <string>#7B9828</string>
         </dict>
       </dict>
@@ -2000,6 +2016,8 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
+          <string>#000000</string>
+          <key>background</key>
           <string>#D8946F</string>
         </dict>
       </dict>
@@ -2011,7 +2029,9 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#425D7C</string>
+          <string>#000000</string>
+          <key>background</key>
+          <string>#709BCC</string>
         </dict>
       </dict>
     </array>
