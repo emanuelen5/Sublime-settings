@@ -1,5 +1,0 @@
-// These settings override both User and Default settings for the XML syntax
-{
-	// Additional situations to trigger auto complete
-	"auto_complete_triggers": [ {"selector": "source.vhdl", "characters": "'"} ]
-}
