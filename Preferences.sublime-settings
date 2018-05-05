@@ -22,6 +22,8 @@
 	"ignored_packages":
 	[
 	],
+	"inactive_panes_dim_color": "#121212",
+	"inactive_panes_dim_strength": 0.5,
 	"indent_guide_options":
 	[
 		"draw_active",
