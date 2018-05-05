@@ -119,12 +119,4 @@
       { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false }
     ]
   },
-
-  // Toggle comment command.  'c' starts code commands.
-  {"keys": ["ctrl+/"], "command": "vhdl_mode_toggle_comment_region", "context": [{"key": "selector", "operand": "source.vhdl"}] },
-  {
-    "keys": ["ctrl+shift+/"],
-    "command": "vhdl_mode_insert_comment_box",
-    "context": [{"key": "selector", "operand": "source.vhdl"}]
-  },
 ]
