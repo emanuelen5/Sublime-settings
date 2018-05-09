@@ -120,4 +120,11 @@
       { "key": "selection_empty", "operator": "equal", "operand": false, "match_all": false }
     ]
   },
+
+  // Patch away super-calculator's override when searching
+  { "keys": ["alt+c"], "command": "toggle_case_sensitive", "context":
+    [
+      { "key": "setting.is_widget", "operator": "equal", "operand": true }
+    ]
+  },
 ]
