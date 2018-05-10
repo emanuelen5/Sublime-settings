@@ -8,9 +8,6 @@
         "black3": "hsl(0, 0%, 13%)",
         "blue": "hsl(196, 86%, 59%)",
         "blue2": "hsl(190, 81%, 67%)",
-        "blue3": "hsl(174, 78%, 59%)",
-        "blue4": "hsl(212, 47%, 62%)",
-        "green": "hsl(143, 100%, 43%)",
         "grey": "hsl(160, 6%, 80%)",
         "grey2": "hsl(53, 8%, 21%)",
         "grey3": "hsl(0, 0%, 20%)",
@@ -26,8 +23,6 @@
         "orange7": "hsl(27, 72%, 65%)",
         "orange8": "hsl(47, 100%, 79%)",
         "orange9": "hsl(21, 57%, 64%)",
-        "pink": "hsl(312, 100%, 73%)",
-        "purple": "hsl(269, 100%, 68%)",
         "purple2": "hsl(268, 100%, 76%)",
         "purple3": "hsl(261, 100%, 75%)",
         "red": "hsl(0, 74%, 47%)",
@@ -35,13 +30,11 @@
         "red3": "hsl(1, 71%, 52%)",
         "red4": "hsl(5, 100%, 58%)",
         "red5": "hsl(5, 72%, 41%)",
-        "red6": "hsl(353, 100%, 64%)",
         "red7": "hsl(9, 100%, 41%)",
         "red8": "hsl(339, 58%, 53%)",
         "red9": "hsl(338, 95%, 56%)",
         "red10": "hsl(338, 77%, 54%)",
         "white": "hsl(0, 0%, 100%)",
-        "white2": "hsl(328, 100%, 92%)",
         "white3": "hsl(60, 36%, 96%)",
         "white4": "hsl(60, 30%, 96%)",
         "white5": "hsl(97, 92%, 90%)",
@@ -55,7 +48,18 @@
         "yellow7": "hsl(81, 87%, 57%)",
         "yellow8": "hsl(51, 11%, 35%)",
         "yellow9": "hsl(50, 11%, 41%)",
-        "yellow10": "hsl(50, 10%, 44%)"
+        "yellow10": "hsl(50, 10%, 44%)",
+        // Colors for Word Highlighter
+        "intense-red": "hsl(353, 100%, 64%)",
+        "radioactive-green": "hsl(143, 100%, 43%)",
+        "peach": "hsl(350, 100%, 80%)",
+        "ugly-blue": "hsl(174, 95%, 40%)",
+        "deep-purple": "hsl(269, 100%, 68%)",
+        "burning-yellow": "hsl(44, 88%, 56%)",
+        "pink": "hsl(312, 100%, 65%)",
+        "grass-green": "hsl(76, 58%, 38%)",
+        "light-brown": "hsl(21, 57%, 64%)",
+        "nice-blue": "hsl(212, 47%, 62%)",
     },
     "globals":
     {
@@ -875,37 +879,37 @@
             "name": "Word Highlighter Color 0",
             "scope": "word_highlighter.color0",
             "foreground": "var(black)",
-            "background": "var(red6)"
+            "background": "var(intense-red)"
         },
         {
             "name": "Word Highlighter Color 1",
             "scope": "word_highlighter.color1",
             "foreground": "var(black)",
-            "background": "var(green)"
+            "background": "var(radioactive-green)"
         },
         {
             "name": "Word Highlighter Color 2",
             "scope": "word_highlighter.color2",
             "foreground": "var(black)",
-            "background": "var(white2)"
+            "background": "var(nice-blue)"
         },
         {
             "name": "Word Highlighter Color 3",
             "scope": "word_highlighter.color3",
             "foreground": "var(black)",
-            "background": "var(blue3)"
+            "background": "var(burning-yellow)"
         },
         {
             "name": "Word Highlighter Color 4",
             "scope": "word_highlighter.color4",
             "foreground": "var(black)",
-            "background": "var(purple)"
+            "background": "var(grass-green)"
         },
         {
             "name": "Word Highlighter Color 5",
             "scope": "word_highlighter.color5",
             "foreground": "var(black)",
-            "background": "var(orange6)"
+            "background": "var(ugly-blue)"
         },
         {
             "name": "Word Highlighter Color 6",
@@ -917,19 +921,19 @@
             "name": "Word Highlighter Color 7",
             "scope": "word_highlighter.color7",
             "foreground": "var(black)",
-            "background": "var(yellow4)"
+            "background": "var(light-brown)"
         },
         {
             "name": "Word Highlighter Color 8",
             "scope": "word_highlighter.color8",
             "foreground": "var(black)",
-            "background": "var(orange9)"
+            "background": "var(deep-purple)"
         },
         {
             "name": "Word Highlighter Color 9",
             "scope": "word_highlighter.color9",
             "foreground": "var(black)",
-            "background": "var(blue4)"
+            "background": "var(peach)"
         }
     ]
 }
