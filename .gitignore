@@ -1,4 +1,11 @@
+# ANSIescape autogenerates a theme
 ANSIescape/ansi.tmTheme
+
+# Package control generates lots of other files than the settings file
 Package Control.*
+
+# The certificate should be unique for different sessions
 *.crt
+
+# The pasty history changes too fast
 TextPastryHistory.sublime-settings
