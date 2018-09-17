@@ -1,0 +1,19 @@
+{
+	"shell_cmd": "npm test",
+	"variants":
+	[
+		{
+			"name": "Init",
+			"cmd": ["npm", "init"]
+		},
+		{
+			"name": "Install",
+			"cmd": ["npm", "install"]
+		},
+		{
+			"name": "Test",
+			"cmd": ["npm", "test"]
+		}
+	],
+	"selector": "source.js"
+}
