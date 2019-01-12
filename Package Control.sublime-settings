@@ -6,7 +6,10 @@
 	"installed_packages":
 	[
 		"AlignTab",
+		"AutomaticPackageReloader",
+		"ChannelRepositoryTools",
 		"DocBlockr",
+		"Emoji",
 		"G-code Syntax Highlighting",
 		"GitGutter",
 		"HexViewer",
