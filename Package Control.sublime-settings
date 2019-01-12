@@ -33,6 +33,7 @@
 		"Text Pastry",
 		"TrailingSpaces",
 		"UnitTesting",
-		"Verilog"
+		"Verilog",
+		"WordHighlight"
 	]
 }

@@ -1,0 +1,10 @@
+{
+    "highlight_when_selection_is_empty": false,
+    "case_sensitive": true,
+    "color_scope_name": "word_highlighter.color6",
+    "draw_outlined": true,
+    "file_size_limit": 4194304,
+    "highlight_delay": 0,
+    "highlight_non_word_characters": true,
+    "highlight_word_under_cursor_when_selection_is_empty": true,
+}
