@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[*$SELECTION*]]></content>
+	<tabTrigger>italics</tabTrigger>
+	<scope>text.html.markdown</scope>
+	<description>surround selection with italic</description>
+</snippet>
